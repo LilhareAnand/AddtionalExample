@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -27,9 +28,28 @@ public class MainActivity extends ActionBarActivity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
+				String v1=fistnumber.getText().toString().trim();
+				String V2=secondNumber.getText().toString().trim();
+				if(!v1.equals("")&&!V2.equals(""))
+				{
+					addOperation(v1,V2);
+				}
+				else if(!v1.equals(""))
+				{
+					
 				
+				}
+				else
+				{
+					
+				}
 			}
 		});
+		
+	}
+
+	protected void addOperation(String v1, String v2) {
+		// TODO Auto-generated method stub
 		
 	}
 

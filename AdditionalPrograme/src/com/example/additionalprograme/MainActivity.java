@@ -1,7 +1,8 @@
 package com.example.additionalprograme;
 
-import android.support.v7.app.ActionBarActivity;
+
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -36,12 +37,12 @@ public class MainActivity extends ActionBarActivity {
 					addOperation(v1, V2);
 					// abc
 				} else if (!v1.equals("")) {
-
+                  Toast.makeText(getApplicationContext(), "Please Inset vlaue V2", Toast.LENGTH_LONG).show();
 				} else {
-
+					 Toast.makeText(getApplicationContext(), "Please Inset vlaue V3", Toast.LENGTH_LONG).show();
 				}
 
-				int xy = 0;
+				
 
 			}
 		});

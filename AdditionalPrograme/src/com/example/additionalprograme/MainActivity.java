@@ -30,7 +30,22 @@ public class MainActivity extends ActionBarActivity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				
+				String v1 = fistnumber.getText().toString().trim();
+				String V2 = secondNumber.getText().toString().trim();
+				if (!v1.equals("") && !V2.equals("")) {
+					minuse(v1, V2);
+					// abc
+				} else if (!v1.equals("")) {
+					// nkjj
+            Toast.makeText(getApplicationContext(),"Please Inset vlaue V2", Toast.LENGTH_LONG).show();
+
+				} else {
+
+					// jkjhkjhj
+					Toast.makeText(getApplicationContext(),
+							"Please Inset vlaue V3", Toast.LENGTH_LONG).show();
+
+				}
 			}
 		});
 		totlaButton.setOnClickListener(new View.OnClickListener() {
@@ -59,6 +74,18 @@ public class MainActivity extends ActionBarActivity {
 			}
 		});
 
+	}
+
+	protected void minuse(String v1, String v2) {
+		// TODO Auto-generated method stub
+		try {
+			int total = 0;
+			total = Integer.parseInt(v1) + Integer.parseInt(v2);
+			totalText.setText(String.valueOf(total));
+		} catch (NumberFormatException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	protected void addOperation(String v1, String v2) {

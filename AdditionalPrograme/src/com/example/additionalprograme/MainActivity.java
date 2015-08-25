@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
-	Button totlaButton;
+	Button totlaButton,minusButton;
 	EditText fistnumber, secondNumber;
 	TextView totalText;
 
@@ -24,6 +24,15 @@ public class MainActivity extends ActionBarActivity {
 		fistnumber = (EditText) findViewById(R.id.editText1);
 		secondNumber = (EditText) findViewById(R.id.editText1);
 		totalText = (TextView) findViewById(R.id.textView1);
+		minusButton=(Button)findViewById(R.id.button2);
+		minusButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
 		totlaButton.setOnClickListener(new View.OnClickListener() {
 
 			@Override

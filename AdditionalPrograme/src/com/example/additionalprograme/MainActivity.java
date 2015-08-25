@@ -28,6 +28,7 @@ public class MainActivity extends ActionBarActivity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
+
 				String v1=fistnumber.getText().toString().trim();
 				String V2=secondNumber.getText().toString().trim();
 				if(!v1.equals("")&&!V2.equals(""))
@@ -44,6 +45,8 @@ public class MainActivity extends ActionBarActivity {
 				{
 					
 				}
+				int a=0;
+
 			}
 		});
 		
@@ -54,12 +57,7 @@ public class MainActivity extends ActionBarActivity {
 		
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
-	}
+
 
 	
 }

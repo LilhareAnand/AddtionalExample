@@ -27,7 +27,7 @@ public class MainActivity extends ActionBarActivity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				int a=0;
+				int xy=0;
 			}
 		});
 		

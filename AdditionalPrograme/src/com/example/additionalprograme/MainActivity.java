@@ -36,9 +36,12 @@ public class MainActivity extends ActionBarActivity {
 					addOperation(v1, V2);
 					// abc
 				} else if (!v1.equals("")) {
+					
+					
+					//nkjj
 
 				} else {
-
+                          //jkjhkjhjk
 				}
 
 				int xy = 0;

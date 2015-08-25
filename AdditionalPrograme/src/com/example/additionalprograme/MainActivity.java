@@ -33,6 +33,7 @@ public class MainActivity extends ActionBarActivity {
 				if(!v1.equals("")&&!V2.equals(""))
 				{
 					addOperation(v1,V2);
+					//abc
 				}
 				else if(!v1.equals(""))
 				{

@@ -30,6 +30,7 @@ public class MainActivity extends ActionBarActivity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
+<<<<<<< HEAD
 				String v1 = fistnumber.getText().toString().trim();
 				String V2 = secondNumber.getText().toString().trim();
 				if (!v1.equals("") && !V2.equals("")) {
@@ -46,6 +47,9 @@ public class MainActivity extends ActionBarActivity {
 							"Please Inset vlaue V3", Toast.LENGTH_LONG).show();
 
 				}
+=======
+				// ading function
+>>>>>>> branch 'master' of https://github.com/LilhareAnand/AddtionalExample.git
 			}
 		});
 		totlaButton.setOnClickListener(new View.OnClickListener() {

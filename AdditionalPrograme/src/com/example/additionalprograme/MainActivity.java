@@ -45,7 +45,7 @@ public class MainActivity extends ActionBarActivity {
 				{
 					
 				}
-				int a=0;
+				
 
 			}
 		});
@@ -54,6 +54,16 @@ public class MainActivity extends ActionBarActivity {
 
 	protected void addOperation(String v1, String v2) {
 		// TODO Auto-generated method stub
+		
+	      try {
+			int total=0;
+			  total=Integer.parseInt(v1)+Integer.parseInt(v2);
+			  totalText.setText(String.valueOf(total));
+		} catch (NumberFormatException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	      
 		
 	}
 

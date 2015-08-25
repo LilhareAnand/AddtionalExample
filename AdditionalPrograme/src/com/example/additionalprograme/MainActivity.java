@@ -30,7 +30,7 @@ public class MainActivity extends ActionBarActivity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				
+				// ading function
 			}
 		});
 		totlaButton.setOnClickListener(new View.OnClickListener() {
